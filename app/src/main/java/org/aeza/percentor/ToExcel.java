@@ -116,7 +116,7 @@ public class ToExcel {
                     fileName = fileName.replaceAll("-.*", "");
                     fileName += "-" + counter++;
                     i = 0;
-                }
+            }
             }
             File excelFile = new File(excelFileDirectory , fileName + ".xlsx");
             //Write the workbook in file system
