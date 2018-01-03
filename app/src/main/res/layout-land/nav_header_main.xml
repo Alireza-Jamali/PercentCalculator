@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="top"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="50dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <SeekBar
+            android:id="@+id/seekBarHekmat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarVira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="25"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarColony"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editTextHekmat"
+            android:layout_width="111dp"
+            android:layout_height="18dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/editTextVira"
+            android:layout_width="91dp"
+            android:layout_height="18dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/editTextColony"
+            android:layout_width="92dp"
+            android:layout_height="18dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/editTextBrand"
+            android:layout_width="94dp"
+            android:layout_height="18dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/editTextCredit"
+            android:layout_width="94dp"
+            android:layout_height="18dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

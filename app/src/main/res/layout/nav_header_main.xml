@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="top"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="50dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <SeekBar
+            android:id="@+id/seekBarHekmat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarVira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="25"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarColony"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarColonyPrecision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarBime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarBimePrecision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+
+        <SeekBar
+            android:id="@+id/seekBarCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/editTextHekmat"
+            android:layout_width="111dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/editTextVira"
+            android:layout_width="91dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/editTextColony"
+            android:layout_width="92dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/editTextColonyPrecision"
+            android:layout_width="92dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:layout_weight="0.04" />
+
+        <TextView
+            android:id="@+id/editTextBime"
+            android:layout_width="92dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:layout_weight="0.05" />
+        <TextView
+            android:id="@+id/editTextBimePrecision"
+            android:layout_width="92dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:id="@+id/editTextBrand"
+            android:layout_width="94dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:id="@+id/editTextCredit"
+            android:layout_width="94dp"
+            android:layout_height="18dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="number"
+            android:text=""
+            android:layout_weight="0.06" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
