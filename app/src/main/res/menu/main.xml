@@ -4,6 +4,6 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="درود خدا بر علیخواه بزرگ"
+        android:title="@string/author"
         app:showAsAction="never" />
 </menu>

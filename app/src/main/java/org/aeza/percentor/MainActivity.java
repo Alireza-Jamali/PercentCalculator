@@ -362,6 +362,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(this, "Seyyed.Alireza.Jamali@gmail.com", Toast.LENGTH_LONG).show();
             return true;
         }
 
@@ -525,7 +526,7 @@ public class MainActivity extends AppCompatActivity
 
                 } else {
                     new AlertDialog.Builder(mainView.getContext())
-                            .setMessage("چرا اجازه ندادی عوضی")
+                            .setMessage("بدون اجازه ذخیره فایل ممکن نخواهد شد.")
                             .show();
                     // permission denied, boo! Disable the
                     // functionality that depends on this permission.
